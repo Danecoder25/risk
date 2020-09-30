@@ -1,0 +1,37 @@
+<div [ngSwitch]="parentData">
+  <div *ngSwitchCase="'Transport'">
+    <select>
+      <option *ngFor="let task of transport">{{task}}</option>
+    </select>
+  </div>
+  <div *ngSwitchCase="'Commissioning'">
+    <select>
+      <option *ngFor="let task of commissioning">{{task}}</option>
+    </select>
+  </div>
+  <div *ngSwitchCase="'Originalsettings'">
+    <select>
+      <option *ngFor="let task of originalsettings">{{task}}</option>
+    </select>
+  </div>
+  <div *ngSwitchCase="'Operation'">
+    <select>
+      <option *ngFor="let task of operation">{{task}}</option>
+    </select>
+  </div>
+  <div *ngSwitchCase="'Maintenance'">
+    <select>
+      <option *ngFor="let task of maintenance">{{task}}</option>
+    </select>
+  </div>
+  <div *ngSwitchCase="'Faultfinding'">
+    <select>
+      <option *ngFor="let task of faultfinding">{{task}}</option>
+    </select>
+  </div>
+  <div *ngSwitchCase="'Scrapping'">
+    <select>
+      <option *ngFor="let task of scrapping">{{task}}</option>
+    </select>
+  </div>
+</div>

@@ -1,0 +1,5 @@
+<select #choiceoflifecycle (change)="myFunction(choiceoflifecycle.value)">
+  <option  *ngFor="let task of lifecycles" >{{task}}</option>
+</select >
+<app-task [parentData]="lifecyclechoice"></app-task>
+<app-operator [parentData]="lifecyclechoice"></app-operator>
