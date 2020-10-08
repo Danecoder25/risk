@@ -10,6 +10,7 @@ import { RiskareaComponent } from './riskarea/riskarea.component';
 import { RisksituationComponent } from './risksituation/risksituation.component';
 import { OperatorComponent } from './operator/operator.component';
 import { FrequencydurationComponent } from './frequencyduration/frequencyduration.component';
+import { FrequencyComponent } from './frequency/frequency.component';
 
 
 @NgModule({
@@ -22,7 +23,8 @@ import { FrequencydurationComponent } from './frequencyduration/frequencyduratio
     RisksituationComponent,
     OperatorComponent,
     routingComponents,
-    FrequencydurationComponent
+    FrequencydurationComponent,
+    FrequencyComponent
   ],
   imports: [
     BrowserModule,
