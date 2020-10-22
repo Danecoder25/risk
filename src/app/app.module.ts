@@ -11,6 +11,15 @@ import { RisksituationComponent } from './risksituation/risksituation.component'
 import { OperatorComponent } from './operator/operator.component';
 import { FrequencydurationComponent } from './frequencyduration/frequencyduration.component';
 import { FrequencyComponent } from './frequency/frequency.component';
+import { FrequencyvalueComponent } from './frequencyvalue/frequencyvalue.component';
+import { FrequencyvaluetwoComponent } from './frequencyvaluetwo/frequencyvaluetwo.component';
+import { NorisksituationComponent } from './norisksituation/norisksituation.component';
+import { DoesriskeventexistComponent } from './doesriskeventexist/doesriskeventexist.component';
+import { TechnicaloriginComponent } from './technicalorigin/technicalorigin.component';
+import { HumanoriginComponent } from './humanorigin/humanorigin.component';
+import { FillintechnicaloriginComponent } from './fillintechnicalorigin/fillintechnicalorigin.component';
+import { FillinhumanoriginComponent } from './fillinhumanorigin/fillinhumanorigin.component';
+import { LikelyhoodhazardouseventComponent } from './likelyhoodhazardousevent/likelyhoodhazardousevent.component';
 
 
 @NgModule({
@@ -24,7 +33,16 @@ import { FrequencyComponent } from './frequency/frequency.component';
     OperatorComponent,
     routingComponents,
     FrequencydurationComponent,
-    FrequencyComponent
+    FrequencyComponent,
+    FrequencyvalueComponent,
+    FrequencyvaluetwoComponent,
+    NorisksituationComponent,
+    DoesriskeventexistComponent,
+    TechnicaloriginComponent,
+    HumanoriginComponent,
+    FillintechnicaloriginComponent,
+    FillinhumanoriginComponent,
+    LikelyhoodhazardouseventComponent
   ],
   imports: [
     BrowserModule,
