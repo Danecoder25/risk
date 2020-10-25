@@ -20,6 +20,12 @@ import { HumanoriginComponent } from './humanorigin/humanorigin.component';
 import { FillintechnicaloriginComponent } from './fillintechnicalorigin/fillintechnicalorigin.component';
 import { FillinhumanoriginComponent } from './fillinhumanorigin/fillinhumanorigin.component';
 import { LikelyhoodhazardouseventComponent } from './likelyhoodhazardousevent/likelyhoodhazardousevent.component';
+import { EducationlevelComponent } from './educationlevel/educationlevel.component';
+import { SpeedComponent } from './speed/speed.component';
+import { AvailablespaceComponent } from './availablespace/availablespace.component';
+import { AwarenessofhazardComponent } from './awarenessofhazard/awarenessofhazard.component';
+import { ComplexityComponent } from './complexity/complexity.component';
+import { SeverityComponent } from './severity/severity.component';
 
 
 @NgModule({
@@ -42,7 +48,13 @@ import { LikelyhoodhazardouseventComponent } from './likelyhoodhazardousevent/li
     HumanoriginComponent,
     FillintechnicaloriginComponent,
     FillinhumanoriginComponent,
-    LikelyhoodhazardouseventComponent
+    LikelyhoodhazardouseventComponent,
+    EducationlevelComponent,
+    SpeedComponent,
+    AvailablespaceComponent,
+    AwarenessofhazardComponent,
+    ComplexityComponent,
+    SeverityComponent
   ],
   imports: [
     BrowserModule,

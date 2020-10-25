@@ -14,6 +14,12 @@ import { HumanoriginComponent } from './humanorigin/humanorigin.component';
 import { FillintechnicaloriginComponent } from './fillintechnicalorigin/fillintechnicalorigin.component';
 import { FillinhumanoriginComponent } from './fillinhumanorigin/fillinhumanorigin.component';
 import { LikelyhoodhazardouseventComponent } from './likelyhoodhazardousevent/likelyhoodhazardousevent.component';
+import { EducationlevelComponent } from './educationlevel/educationlevel.component';
+import { SpeedComponent } from './speed/speed.component';
+import { AvailablespaceComponent } from './availablespace/availablespace.component';
+import { AwarenessofhazardComponent } from './awarenessofhazard/awarenessofhazard.component';
+import { ComplexityComponent } from './complexity/complexity.component';
+import { SeverityComponent } from './severity/severity.component';
 
 
 const routes: Routes = [
@@ -27,7 +33,13 @@ const routes: Routes = [
   {path: 'humanorigin', component: HumanoriginComponent},
   {path: 'fillintechnicalorigin', component: FillintechnicaloriginComponent},
   {path: 'fillinhumanorigin', component: FillinhumanoriginComponent},
-  {path: 'likelyhoodhazardousevent', component: LikelyhoodhazardouseventComponent}
+  {path: 'likelyhoodhazardousevent', component: LikelyhoodhazardouseventComponent},
+  {path: 'educationlevel', component: EducationlevelComponent},
+  {path: 'speed', component: SpeedComponent},
+  {path: 'availablespace', component: AvailablespaceComponent},
+  {path: 'awarnessofhazard', component: AwarenessofhazardComponent},
+  {path: 'complexity', component: ComplexityComponent},
+  {path: 'severity', component: SeverityComponent}
 ];
 
 @NgModule({
@@ -38,4 +50,6 @@ export class AppRoutingModule { }
 export const routingComponents = [FrequencydurationComponent, FrequencyComponent,
 FrequencyvalueComponent, FrequencyvaluetwoComponent, NorisksituationComponent,
 DoesriskeventexistComponent, TechnicaloriginComponent, HumanoriginComponent,
-FillintechnicaloriginComponent, FillinhumanoriginComponent, LikelyhoodhazardouseventComponent];
+FillintechnicaloriginComponent, FillinhumanoriginComponent, LikelyhoodhazardouseventComponent,
+EducationlevelComponent, SpeedComponent, AvailablespaceComponent, AwarenessofhazardComponent,
+ComplexityComponent, SeverityComponent];
