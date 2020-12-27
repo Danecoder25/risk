@@ -18,7 +18,19 @@ export class TaskComponent implements OnInit {
   'Justering och inställning eller kontroll av maskinens funktionsparametrar (t.ex. hastighet, tryck, kraft, gränser för rörelser)',
   'Fastspänning/fastsättning av arbetsstycket', 'Matning, påfyllning, laddning av råmaterial', 'Funktionsprovning, provkörning',
   'Montering eller byte av verktyg, verktygsinställning', 'Kontroll av programmering', 'Kontroll av slutprodukten'];
-  public operation = ['4', ''];
+  public operation = [
+  'Fastspänning/fastsättning av arbetsstycket',
+  'Kontroll/inspektion',
+  'Körning av maskinen',
+  'Matning, påfyllning, laddning av råmaterial',
+  'Manuell insättning/uttagning',
+  'Mindre justeringar och inställning av maskinens funktionsparametrar',
+  'Mindre ingrepp under drift',
+  'Manuell styrning',
+  'Omstart av maskinen efter stopp/avbrott',
+  'Övervakning',
+  'Kontroll av slutprodukten'
+];
   public maintenance = ['5', ''];
   public faultfinding = ['6', ''];
   public scrapping = ['7', ''];
