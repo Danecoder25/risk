@@ -7,7 +7,13 @@ import { Component, OnInit } from '@angular/core';
 })
 export class PhasesComponent implements OnInit {
   public lifecyclechoice = 'Transport';
-  public lifecycles = ['Transport', 'Commissioning', 'Originalsettings', 'Operation', 'Maintenance', 'Faultfinding', 'Scrapping'];
+  public lifecycles = ['Transport',
+  'Montering och installation Idrifttagande',
+  'Originalsettings',
+  'Operation',
+  'Maintenance',
+  'Faultfinding',
+  'Scrapping'];
 
   constructor() { }
 
