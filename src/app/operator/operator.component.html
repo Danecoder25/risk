@@ -9,27 +9,27 @@
       <option *ngFor="let task of commissioning">{{task}}</option>
     </select>
   </div>
-  <div *ngSwitchCase="'Originalsettings'">
+  <div *ngSwitchCase="'Inställning Inlärning/programmering och/eller processbyte'">
     <select>
       <option *ngFor="let task of originalsettings">{{task}}</option>
     </select>
   </div>
-  <div *ngSwitchCase="'Operation'">
+  <div *ngSwitchCase="'Drift'">
     <select>
       <option *ngFor="let task of operation">{{task}}</option>
     </select>
   </div>
-  <div *ngSwitchCase="'Maintenance'">
+  <div *ngSwitchCase="'Rengöring Underhåll'">
     <select>
       <option *ngFor="let task of maintenance">{{task}}</option>
     </select>
   </div>
-  <div *ngSwitchCase="'Faultfinding'">
+  <div *ngSwitchCase="'Felsökning/Felavhjälpning'">
     <select>
       <option *ngFor="let task of faultfinding">{{task}}</option>
     </select>
   </div>
-  <div *ngSwitchCase="'Scrapping'">
+  <div *ngSwitchCase="'Nedmontering Skrotning'">
     <select>
       <option *ngFor="let task of scrapping">{{task}}</option>
     </select>

@@ -9,11 +9,11 @@ export class PhasesComponent implements OnInit {
   public lifecyclechoice = 'Transport';
   public lifecycles = ['Transport',
   'Montering och installation Idrifttagande',
-  'Originalsettings',
-  'Operation',
-  'Maintenance',
-  'Faultfinding',
-  'Scrapping'];
+  'Inställning Inlärning/programmering och/eller processbyte',
+  'Drift',
+  'Rengöring Underhåll',
+  'Felsökning/Felavhjälpning',
+  'Nedmontering Skrotning'];
 
   constructor() { }
 
