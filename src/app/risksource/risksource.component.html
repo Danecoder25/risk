@@ -1,3 +1,4 @@
 <select #choiceofrisksource (change)="myFunction(choiceofrisksource.value)">
   <option  *ngFor="let risksource of risksources" >{{risksource}}</option>
 </select >
+<app-riskorigin [parentData]="risksourcechoice"></app-riskorigin>

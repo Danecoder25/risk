@@ -1,1 +1,37 @@
-<p>riskorigin works!</p>
+<div [ngSwitch]="parentData">
+  <div *ngSwitchCase="'Mekaniska riskkällor'">
+    <select>
+      <option *ngFor="let task of Mekaniska riskkällor">{{task}}</option>
+    </select>
+  </div>
+  <div *ngSwitchCase="'Montering och installation Idrifttagande'">
+    <select>
+      <option *ngFor="let task of commissioning">{{task}}</option>
+    </select>
+  </div>
+  <div *ngSwitchCase="'Inställning Inlärning/programmering och/eller processbyte'">
+    <select>
+      <option *ngFor="let task of originalsettings">{{task}}</option>
+    </select>
+  </div>
+  <div *ngSwitchCase="'Drift'">
+    <select>
+      <option *ngFor="let task of operation">{{task}}</option>
+    </select>
+  </div>
+  <div *ngSwitchCase="'Rengöring Underhåll'">
+    <select>
+      <option *ngFor="let task of maintenance">{{task}}</option>
+    </select>
+  </div>
+  <div *ngSwitchCase="'Felsökning/Felavhjälpning'">
+    <select>
+      <option *ngFor="let task of faultfinding">{{task}}</option>
+    </select>
+  </div>
+  <div *ngSwitchCase="'Nedmontering Skrotning'">
+    <select>
+      <option *ngFor="let task of scrapping">{{task}}</option>
+    </select>
+  </div>
+</div>

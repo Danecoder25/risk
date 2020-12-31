@@ -20,6 +20,7 @@ import { AvailablespaceComponent } from './availablespace/availablespace.compone
 import { AwarenessofhazardComponent } from './awarenessofhazard/awarenessofhazard.component';
 import { ComplexityComponent } from './complexity/complexity.component';
 import { SeverityComponent } from './severity/severity.component';
+import { RiskoriginComponent } from './riskorigin/riskorigin.component';
 
 
 const routes: Routes = [
@@ -39,7 +40,8 @@ const routes: Routes = [
   {path: 'availablespace', component: AvailablespaceComponent},
   {path: 'awarnessofhazard', component: AwarenessofhazardComponent},
   {path: 'complexity', component: ComplexityComponent},
-  {path: 'severity', component: SeverityComponent}
+  {path: 'severity', component: SeverityComponent},
+  {path: 'riskorigin', component: RiskoriginComponent}
 ];
 
 @NgModule({
@@ -52,4 +54,4 @@ FrequencyvalueComponent, FrequencyvaluetwoComponent, NorisksituationComponent,
 DoesriskeventexistComponent, TechnicaloriginComponent, HumanoriginComponent,
 FillintechnicaloriginComponent, FillinhumanoriginComponent, LikelyhoodhazardouseventComponent,
 EducationlevelComponent, SpeedComponent, AvailablespaceComponent, AwarenessofhazardComponent,
-ComplexityComponent, SeverityComponent];
+ComplexityComponent, SeverityComponent, RiskoriginComponent];

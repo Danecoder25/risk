@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit} from '@angular/core';
 
 @Component({
   selector: 'app-risksource',
@@ -11,13 +11,13 @@ export class RisksourceComponent implements OnInit {
   'Mekaniska riskkällor',
   'Elektriska riskkällor',
   'Värmeriskkällor',
-   'Bullerriskkällor',
-   'Vibrationsriskkällor',
-   'Strålningsriskkällor',
-   'Riskkällor förknippade med material/ämnen',
-   'Ergonomiska riskkällor',
-   'Riskkällor förknippade med den miljö där maskinen används',
-   'Kombination av riskkällor'
+  'Bullerriskkällor',
+  'Vibrationsriskkällor',
+  'Strålningsriskkällor',
+  'Riskkällor förknippade med material/ämnen',
+  'Ergonomiska riskkällor',
+  'Riskkällor förknippade med den miljö där maskinen används',
+  'Kombination av riskkällor'
   ];
 
   constructor() { }
