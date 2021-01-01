@@ -10,19 +10,62 @@ export class RiskoriginComponent implements OnInit {
   public mechanical = [
     'acceleration, retardation',
     'kantiga delar',
-    'rörlig del som närmar sig en fast del'
+    'rörlig del som närmar sig en fast del',
+    'skärande delar',
+    'elastiska delar',
+    'fallande föremål',
+    'gravitation',
+    'höjd från marken',
+    'högtryck',
+    'instabilitet',
+    'kinetisk energi',
+    'maskinens mobilitet',
+    'rörliga delar',
+    'roterande delar',
+    'ojämn, hal yta',
+    'vassa kanter',
+    'lagrad energi',
+    'vakuum'
   ];
   public electrical = [
-    '2Elektriska riskkällor'
+    'ljusbåge',
+    'elektromagnetiska fenomen',
+    'elektrostatiska fenomen',
+    'spänningsförande delar',
+    'inte tillräckligt avstånd till',
+    'spänningsförande högspänningsdelar',
+    'överbelastning',
+    'delar som har blivit',
+    'spänningssatta vid feltillstånd',
+    'kortslutning',
+    'värmestrålning'
   ];
   public heat = [
-    '3Värmeriskkällor'
+    'explosion',
+    'flammor',
+    'föremål eller material med',
+    'hög eller låg temperatur',
+    'strålning från värmekällor'
   ];
   public noise = [
-    '4Bullerriskkällor'
+    'kavitationsfenomen',
+    'utblåsningssystem',
+    'gas som läcker vid hög hastighet',
+    'tillverkningsprocess (pressning, skärning etc.)',
+    'rörliga delar',
+    'skrapande ytor',
+    'obalanserade roterande delar',
+    'tjutande tryckluft',
+    'slitna delar',
   ];
   public vibration = [
-    '5Vibrationsriskkällor'
+    'kavitationsfenomen',
+    'felaktig inställning av rörliga delar',
+    'mobil utrustning',
+    'skrapande ytor',
+    'obalanserade roterande delar',
+    'vibrerande utrustning',
+    'slitna delar'
   ];
   public radiation = [
     '6Strålningsriskkällor'
