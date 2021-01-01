@@ -27,6 +27,7 @@ import { AwarenessofhazardComponent } from './awarenessofhazard/awarenessofhazar
 import { ComplexityComponent } from './complexity/complexity.component';
 import { SeverityComponent } from './severity/severity.component';
 import { RiskoriginComponent } from './riskorigin/riskorigin.component';
+import { PotentialconsequencesComponent } from './potentialconsequences/potentialconsequences.component';
 
 
 @NgModule({
@@ -56,7 +57,8 @@ import { RiskoriginComponent } from './riskorigin/riskorigin.component';
     AwarenessofhazardComponent,
     ComplexityComponent,
     SeverityComponent,
-    RiskoriginComponent
+    RiskoriginComponent,
+    PotentialconsequencesComponent
   ],
   imports: [
     BrowserModule,

@@ -68,19 +68,52 @@ export class RiskoriginComponent implements OnInit {
     'slitna delar'
   ];
   public radiation = [
-    '6Strålningsriskkällor'
+    'joniserande strålningskälla',
+    'lågfrekvent elektromagnetisk',
+    'strålning',
+    'optisk strålning (infraröd, synlig och ultraviolett), inklusive laser',
+    'radiofrekvent elektromagnetisk strålning'
   ];
   public substances = [
-    '7Riskkällor förknippade med material/ämnen'
+    'aerosol',
+    'biologiska och mikrobiologiska (virus eller bakterier) medel',
+    'brännbart',
+    'damm',
+    'explosivt',
+    'fibrer',
+    'lättantändligt',
+    'flytande',
+    'ånga',
+    'gas',
+    'dimma',
+    'oxidator'
   ];
   public ergonomical = [
-    '8Ergonomiska riskkällor'
+    'tillgänglighet',
+    'konstruktion och placering av indikeringsanordningar och displayer',
+    'konstruktion, placering eller märkning av manöverdon',
+    'ansträngning',
+    'flimmer, bländning, skugga, stroboskopisk effekt',
+    'platsbelysning',
+    'mental över- eller underbelastning',
+    'arbetsställning',
+    'upprepade rörelser/aktiviteter',
+    'sikt'
   ];
   public environmental = [
-    '9Riskkällor förknippade med den miljö där maskinen används'
+    'damm och dimma',
+    'elektromagnetiska störningar',
+    'belysning',
+    'fukt',
+    'utsläpp',
+    'snö',
+    'temperatur',
+    'vatten',
+    'vind',
+    'syrebrist',
   ];
   public combinations = [
-    '10Kombination av riskkällor'
+    'T.ex. upprepade rörelser + ansträngning + hög omgivningstemperatur'
   ];
   constructor() { }
 

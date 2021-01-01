@@ -1,0 +1,52 @@
+<div [ngSwitch]="parentData">
+  <div *ngSwitchCase="'Mekaniska riskkällor'">
+    <select>
+      <option *ngFor="let task of mechanical">{{task}}</option>
+    </select>
+  </div>
+  <div *ngSwitchCase="'Elektriska riskkällor'">
+    <select>
+      <option *ngFor="let task of electrical">{{task}}</option>
+    </select>
+  </div>
+  <div *ngSwitchCase="'Värmeriskkällor'">
+    <select>
+      <option *ngFor="let task of heat">{{task}}</option>
+    </select>
+  </div>
+  <div *ngSwitchCase="'Bullerriskkällor'">
+    <select>
+      <option *ngFor="let task of noise">{{task}}</option>
+    </select>
+  </div>
+  <div *ngSwitchCase="'Vibrationsriskkällor'">
+    <select>
+      <option *ngFor="let task of vibration">{{task}}</option>
+    </select>
+  </div>
+  <div *ngSwitchCase="'Strålningsriskkällor'">
+    <select>
+      <option *ngFor="let task of radiation">{{task}}</option>
+    </select>
+  </div>
+  <div *ngSwitchCase="'Riskkällor förknippade med material/ämnen'">
+    <select>
+      <option *ngFor="let task of substances">{{task}}</option>
+    </select>
+  </div>
+  <div *ngSwitchCase="'Ergonomiska riskkällor'">
+    <select>
+      <option *ngFor="let task of ergonomical">{{task}}</option>
+    </select>
+  </div>
+  <div *ngSwitchCase="'Riskkällor förknippade med den miljö där maskinen används'">
+    <select>
+      <option *ngFor="let task of environmental">{{task}}</option>
+    </select>
+  </div>
+  <div *ngSwitchCase="'Kombination av riskkällor'">
+    <select>
+      <option *ngFor="let task of combinations">{{task}}</option>
+    </select>
+  </div>
+</div>
