@@ -8,7 +8,9 @@ import { Component, OnInit, Input } from '@angular/core';
 export class RiskoriginComponent implements OnInit {
   @Input() public parentData: string;
   public mechanical = [
-    '1Mekaniska riskkällor'
+    'acceleration, retardation',
+    'kantiga delar',
+    'rörlig del som närmar sig en fast del'
   ];
   public electrical = [
     '2Elektriska riskkällor'
@@ -37,10 +39,8 @@ export class RiskoriginComponent implements OnInit {
   public combinations = [
     '10Kombination av riskkällor'
   ];
-
   constructor() { }
 
   ngOnInit() {
   }
-
 }
