@@ -1,4 +1,4 @@
-import { Component, OnInit, Input} from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
 
 @Component({
   selector: 'app-riskorigin',
@@ -6,18 +6,36 @@ import { Component, OnInit, Input} from '@angular/core';
   styleUrls: ['./riskorigin.component.css']
 })
 export class RiskoriginComponent implements OnInit {
-  public risksourcechoice = 'Mekaniska riskkällor';
-  public risksources = [
-  'Mekaniska riskkällor',
-  'Elektriska riskkällor',
-  'Värmeriskkällor',
-  'Bullerriskkällor',
-  'Vibrationsriskkällor',
-  'Strålningsriskkällor',
-  'Riskkällor förknippade med material/ämnen',
-  'Ergonomiska riskkällor',
-  'Riskkällor förknippade med den miljö där maskinen används',
-  'Kombination av riskkällor'
+  @Input() public parentData: string;
+  public mechanical = [
+    '1Mekaniska riskkällor'
+  ];
+  public electrical = [
+    '2Elektriska riskkällor'
+  ];
+  public heat = [
+    '3Värmeriskkällor'
+  ];
+  public noise = [
+    '4Bullerriskkällor'
+  ];
+  public vibration = [
+    '5Vibrationsriskkällor'
+  ];
+  public radiation = [
+    '6Strålningsriskkällor'
+  ];
+  public substances = [
+    '7Riskkällor förknippade med material/ämnen'
+  ];
+  public ergonomical = [
+    '8Ergonomiska riskkällor'
+  ];
+  public environmental = [
+    '9Riskkällor förknippade med den miljö där maskinen används'
+  ];
+  public combinations = [
+    '10Kombination av riskkällor'
   ];
 
   constructor() { }
