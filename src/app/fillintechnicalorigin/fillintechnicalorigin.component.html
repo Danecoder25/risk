@@ -1,4 +1,11 @@
 <br>
+<!--
 <label for="riskarea">Ange händelse med tekniskt ursprung som kan orsaka skada</label>
 <input type="text" id="fname" name="fname">
+<button routerLink="/fillinhumanorigin">Nästa</button>
+-->
+<select #choiceoflifecycle (change)="myFunction(choiceoflifecycle.value)">
+  <option  *ngFor="let task of lifecycles" >{{task}}</option>
+</select >
+<app-riskyevent [parentData]="lifecyclechoice"></app-riskyevent>
 <button routerLink="/fillinhumanorigin">Nästa</button>

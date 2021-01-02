@@ -1,0 +1,52 @@
+<div [ngSwitch]="parentData">
+  <div *ngSwitchCase="'Form och/eller ytfinish på åtkomliga delar på maskinen'">
+    <select>
+      <option *ngFor="let task of mechanical">{{task}}</option>
+    </select>
+  </div>
+  <div *ngSwitchCase="'Maskinens rörliga delar'">
+    <select>
+      <option *ngFor="let task of electrical">{{task}}</option>
+    </select>
+  </div>
+  <div *ngSwitchCase="'Kinetisk energi och/eller lägesenergi (tyngdkraft) hos maskinen, maskinens delar, verktyg och material som används, bearbetas och hanteras'">
+    <select>
+      <option *ngFor="let task of heat">{{task}}</option>
+    </select>
+  </div>
+  <div *ngSwitchCase="'Stabilitet hos maskinen och/eller delar av den'">
+    <select>
+      <option *ngFor="let task of noise">{{task}}</option>
+    </select>
+  </div>
+  <div *ngSwitchCase="'Mekanisk hållfasthet hos maskinens delar, verktyg etc.'">
+    <select>
+      <option *ngFor="let task of vibration">{{task}}</option>
+    </select>
+  </div>
+  <div *ngSwitchCase="'Pneumatisk, hydraulisk utrustning'">
+    <select>
+      <option *ngFor="let task of radiation">{{task}}</option>
+    </select>
+  </div>
+  <div *ngSwitchCase="'Elektrisk utrustning'">
+    <select>
+      <option *ngFor="let task of substances">{{task}}</option>
+    </select>
+  </div>
+  <div *ngSwitchCase="'Styrsystem'">
+    <select>
+      <option *ngFor="let task of ergonomical">{{task}}</option>
+    </select>
+  </div>
+  <div *ngSwitchCase="'Material och ämnen eller fysiska faktorer (temperatur, buller, vibrationer,strålning och miljö)'">
+    <select>
+      <option *ngFor="let task of environmental">{{task}}</option>
+    </select>
+  </div>
+  <div *ngSwitchCase="'Utformning av arbetsstation och/eller arbetsprocess'">
+    <select>
+      <option *ngFor="let task of combinations">{{task}}</option>
+    </select>
+  </div>
+</div>

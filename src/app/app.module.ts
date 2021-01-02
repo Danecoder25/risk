@@ -28,6 +28,7 @@ import { ComplexityComponent } from './complexity/complexity.component';
 import { SeverityComponent } from './severity/severity.component';
 import { RiskoriginComponent } from './riskorigin/riskorigin.component';
 import { PotentialconsequencesComponent } from './potentialconsequences/potentialconsequences.component';
+import { RiskyeventComponent } from './riskyevent/riskyevent.component';
 
 
 @NgModule({
@@ -58,7 +59,8 @@ import { PotentialconsequencesComponent } from './potentialconsequences/potentia
     ComplexityComponent,
     SeverityComponent,
     RiskoriginComponent,
-    PotentialconsequencesComponent
+    PotentialconsequencesComponent,
+    RiskyeventComponent
   ],
   imports: [
     BrowserModule,
