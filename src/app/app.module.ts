@@ -29,6 +29,7 @@ import { SeverityComponent } from './severity/severity.component';
 import { RiskoriginComponent } from './riskorigin/riskorigin.component';
 import { PotentialconsequencesComponent } from './potentialconsequences/potentialconsequences.component';
 import { RiskyeventComponent } from './riskyevent/riskyevent.component';
+import { RisksService } from './risks.service';
 
 
 @NgModule({
@@ -66,7 +67,7 @@ import { RiskyeventComponent } from './riskyevent/riskyevent.component';
     BrowserModule,
     AppRoutingModule
   ],
-  providers: [],
+  providers: [RisksService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

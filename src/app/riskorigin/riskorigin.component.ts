@@ -43,8 +43,7 @@ export class RiskoriginComponent implements OnInit {
   public heat = [
     'explosion',
     'flammor',
-    'föremål eller material med',
-    'hög eller låg temperatur',
+    'föremål eller material med hög eller låg temperatur',
     'strålning från värmekällor'
   ];
   public noise = [
@@ -69,8 +68,7 @@ export class RiskoriginComponent implements OnInit {
   ];
   public radiation = [
     'joniserande strålningskälla',
-    'lågfrekvent elektromagnetisk',
-    'strålning',
+    'lågfrekvent elektromagnetisk strålning',
     'optisk strålning (infraröd, synlig och ultraviolett), inklusive laser',
     'radiofrekvent elektromagnetisk strålning'
   ];
